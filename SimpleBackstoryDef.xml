@@ -1,0 +1,1745 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--==========유년기==========-->
+<!--고아-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_01</defName>
+	<backstoryTitle>Kurin Orphan</backstoryTitle>
+	<backstoryTitleShort>Orphan</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef]'s parents were killed by humans when [PAWN_pronoun] was a child. [PAWN_pronoun], who developed PTSD because of this and after a lot of therapy has begun to get better, but still suffers nightmares from the memories of his deceased parents.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Medicine>2</Medicine>
+		<Intellectual>2</Intellectual>
+	</skillGains>
+	<workDisables>
+		<li>Violent</li>
+	</workDisables>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--어린 시녀-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_02</defName>
+	<backstoryTitle>Kurin Young Maid</backstoryTitle>
+	<backstoryTitleShort>Young Maid</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef]'s parents lost  all of their fortune in a scandal and accrued alot of debt. [PAWN_pronoun] was in charge of doing the chores around the mansion due to the wealthy Kurins who felt pity for her. [PAWN_nameDef] made friends with the other servants and led a quiet childhood.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Social>4</Social>
+		<Cooking>2</Cooking>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--여우무리 일원-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_03</defName>
+	<backstoryTitle>Kurin Young Vigilante</backstoryTitle>
+	<backstoryTitleShort>Young Vigilante</backstoryTitleShort>
+	<backstoryDescription>The Story of the Fox Flock Vigilante was a popular TV animation for young Kurins. [PAWN_nameDef] formed a vigilante group of like minded friends, but due to security in the city being good there wasn't much to do.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Melee>2</Melee>
+		<Social>2</Social>
+		<Crafting>2</Crafting>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--따돌려진 아이-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_04</defName>
+	<backstoryTitle>Kurin Outcast</backstoryTitle>
+	<backstoryTitleShort>Kurin Outcast</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was a rare blue-eyed child, A sign that was considered ominous among the Kurin society. [PAWN_nameDef] grew up as a lonely child due to the cold gazes from those around him.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Social>-6</Social>
+		<Medicine>6</Medicine>
+		<Intellectual>6</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--비행청소년-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_05</defName>
+	<backstoryTitle>Kurin Delinquent</backstoryTitle>
+	<backstoryTitleShort>Young Delinquent</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was a child who would often cause mischief and get in trouble alot, causing alot of grief for the teachers.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Shooting>2</Shooting>
+		<Melee>2</Melee>
+		<Social>2</Social>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--빈민가 고아-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_06</defName>
+	<backstoryTitle>Kurin Slum Orphan</backstoryTitle>
+	<backstoryTitleShort>Slum Orphan</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] spent their childhood living in decrepit alleys whiel scrounging for food scraps. There were facilities to help children, but when the Kurin Republic devoted all its resources to the production of immigration ships, he did not receive any help and was left to fend for themself in the slums.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Medicine>-2</Medicine>
+		<Cooking>2</Cooking>
+		<Construction>2</Construction>
+		<Plants>2</Plants>
+		<Crafting>2</Crafting>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--공잡이-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_07</defName>
+	<backstoryTitle>Kurin Catcher</backstoryTitle>
+	<backstoryTitleShort>Catcher</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef], who loved baseball was a big fan of a famous team in the nation of humans where the biggest league was held. [PAWN_pronoun], who is following every game was caught on camera became known to the team's club became a catcher for them.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Shooting>2</Shooting>
+		<Melee>2</Melee>
+		<Social>2</Social>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--동물원 아르바이터-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_08</defName>
+	<backstoryTitle>Part-Time Kurin Zoo Keeper</backstoryTitle>
+	<backstoryTitleShort>Part-Time Zoo Keeper</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was a high school student, but because their family was poor they got a part-time job at a zoo to earn their tuition to study.[PAWN_pronoun] was in charge of caring for and feeding animals.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Social>2</Social>
+		<Animals>4</Animals>
+		<Intellectual>4</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--게으른 아이-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_09</defName>
+	<backstoryTitle>Kurin Lazy Child</backstoryTitle>
+	<backstoryTitleShort>Lazy Child</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was often in their room because everything was to bothersome to do.</backstoryDescription>
+	<slot>Childhood</slot>
+	<forcedTraits>
+		<li>
+			<traitDef>Industriousness</traitDef>
+			<degree>-1</degree>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--평범한 아이-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_10</defName>
+	<backstoryTitle>Kurin Ordinary Child</backstoryTitle>
+	<backstoryTitleShort>Ordinary Child</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was born into an ordinary middle-class family and grew up within a loving family. Like other children their own age they liked to eat sweets. They are a good hearted child who strove to treat others with kindness, although they sometimes didn't do well in their end of year exams.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Social>2</Social>
+		<Cooking>2</Cooking>
+		<Crafting>2</Crafting>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--프로게이머-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_11</defName>
+	<backstoryTitle>Kurin Pro Gamer</backstoryTitle>
+	<backstoryTitleShort>Pro Gamer</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef]'s gaming ability was exceptional. They would often place in the top ten of most games they played. [PAWN_pronoun] competed in several competitions and won, but if the internet was cut off, they became a dead fox who did not want to do anything.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Shooting>6</Shooting>
+		<Cooking>2</Cooking>
+		<Construction>-2</Construction>
+		<Plants>-2</Plants>
+		<Mining>-2</Mining>
+		<Crafting>2</Crafting>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--시골 아이-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_12</defName>
+	<backstoryTitle>Kurin Country Kid</backstoryTitle>
+	<backstoryTitleShort>Country Kid</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] spent their childhood with nature out in the country-side, picking mushrooms in the mountains, chasing cats in the fields and catching fish in the nearby rivers.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Animals>2</Animals>
+		<Construction>2</Construction>
+		<Plants>4</Plants>
+		<Mining>2</Mining>
+		<Intellectual>-4</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--도시꼬마-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_13</defName>
+	<backstoryTitle>Kurin City Kid</backstoryTitle>
+	<backstoryTitleShort>City Kid</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] grew up in a city with excellent Infrastructure, large parks with towering buildings being the norm. [PAWN_pronoun]'s house is located in the bustling city of Kurin. [PAWN_pronoun]'s was able to live without a care in the world.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Social>2</Social>
+		<Medicine>4</Medicine>
+		<Plants>-2</Plants>
+		<Mining>-2</Mining>
+		<Artistic>2</Artistic>
+		<Intellectual>2</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef> 
+<!--어린 만화가-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_14</defName>
+	<backstoryTitle>Kurin Young Artist</backstoryTitle>
+	<backstoryTitleShort>Young Artist</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] loved drawing and was gifted in the arts. When [PAWN_nameDef] started drawing, they focused so much that they would often become too distrated from what needed to be done.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Artistic>4</Artistic>
+		<Crafting>2</Crafting>
+		<Intellectual>-2</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--한꼬리 증후군-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_15</defName>
+	<backstoryTitle>Kurin One-tail</backstoryTitle>
+	<backstoryTitleShort>One-tail</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was born with one tail unlike others. There was no downsides to having one tail aside from appearance. [PAWN_nameDef] was teased alot when they were younger but as they grew older and became more popular due to their cute appearance.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Melee>2</Melee>
+		<Social>2</Social>
+		<Medicine>2</Medicine>
+		<Cooking>2</Cooking>
+		<Crafting>2</Crafting>  
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<traitDef>Beauty</traitDef>
+			<degree>2</degree>
+		</li>
+	</forcedTraits>	
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+	<!--
+	<maleChance>0.48</maleChance>
+	<raceAppearances>
+				<li>
+					<gender>Female</gender>
+					<appearanceDef>Kurin_AppearanceDef_A_OTF</appearanceDef>
+					<weight>1.0</weight>
+				</li>
+				<li>
+					<gender>Female</gender>
+					<appearanceDef>Kurin_AppearanceDef_A_Green_Eyes_OTF</appearanceDef>
+					<weight>1.0</weight>
+				</li>
+				<li>
+					<gender>Female</gender>
+					<appearanceDef>Kurin_AppearanceDef_A_Blue_Eyes_OTF</appearanceDef>
+					<weight>1.0</weight>
+				</li>
+				<li>
+					<gender>Male</gender>
+					<appearanceDef>Kurin_AppearanceDef_AM_OTF</appearanceDef>
+					<weight>1.0</weight>
+				</li>
+				<li>
+					<gender>Male</gender>
+					<appearanceDef>Kurin_AppearanceDef_AM_Green_Eyes_OTF</appearanceDef>
+					<weight>1.0</weight>
+				</li>
+				<li>
+					<gender>Male</gender>
+					<appearanceDef>Kurin_AppearanceDef_AM_Blue_Eyes_OTF</appearanceDef>
+					<weight>1.0</weight>
+				</li>
+	</raceAppearances>
+	-->
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--겁많은 아이-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_16</defName>
+	<backstoryTitle>Kurin Cowardly Child</backstoryTitle>
+	<backstoryTitleShort>Timid Child</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] is scared of alot of things and the thought of violence scares them alot.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Plants>-2</Plants>
+		<Crafting>4</Crafting>
+		<Intellectual>2</Intellectual>
+	</skillGains>
+	<workDisables>
+		<li>Violent</li>
+	</workDisables>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--다정한 아이-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_17</defName>
+	<backstoryTitle>Kurin Sweet Child</backstoryTitle>
+	<backstoryTitleShort>Sweet Child</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] is a friendly child. [PAWN_nameDef] loves to listen to their friends stories and to comfort them when they are down. [PAWN_nameDef] is a good-natured child who brightens up peoples day with one word.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Melee>-2</Melee>
+		<Social>4</Social>
+		<Animals>2</Animals>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<traitDef>Kind</traitDef>
+			<degree>0</degree>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--가난한 아이-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_18</defName>
+	<backstoryTitle>쿠린 가난한 아이</backstoryTitle>
+	<backstoryTitleShort>아이</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] lived a poor life as a child. [PAWN_pronoun]'s parents retured late every night from work due to both of them having to work two jobs. [PAWN_nameDef] matured faster than others their age from being alone alot. [PAWN_pronoun]'s hope is to obtain a well paying job.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Social>-2</Social>
+		<Cooking>4</Cooking>
+		<Intellectual>4</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--찻집 아이-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_19</defName>
+	<backstoryTitle>Kurin Teahouse Child</backstoryTitle>
+	<backstoryTitleShort>Teahouse Child</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] often helped their parents after school at their family teahouse. They took orders and cleaned up after the night was over. Regular customers would often give pocket money to [PAWN_nameDef].</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Social>4</Social>
+		<Cooking>2</Cooking>
+		<Plants>2</Plants>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--두부집 딸-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_20</defName>
+	<backstoryTitle>Daughter of Kurin Tofu House</backstoryTitle>
+	<backstoryTitleShort>Daughter of a store</backstoryTitleShort>
+	<backstoryDescription>[PAWN_pronoun]'s family has been making tofu in an tradtional style for over a hundred years. [PAWN_nameDef] grew up learning their family way of making tofu, [PAWN_nameDef] loves tofu.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Cooking>2</Cooking>
+		<Plants>2</Plants>
+		<Crafting>4</Crafting>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--유흥가 심부름꾼-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_21</defName>
+	<backstoryTitle>Kurin Red-light District Messenger</backstoryTitle>
+	<backstoryTitleShort>Kurin Night-life Messenger</backstoryTitleShort>
+	<backstoryDescription>It is illegal in the Kurin Republic for young children to work in the Red-Light Districts. However [PAWN_nameDef] was able to earn a sizable amount of money for a child, such as doing errands for brothels and drug dens. [PAWN_nameDef] is a smart child and was able to slip away whenever the authorities cracked down on the illegal activities.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Social>6</Social>
+		<Medicine>2</Medicine>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--어린 공예가-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_22</defName>
+	<backstoryTitle>Kurin Young Craftsman</backstoryTitle>
+	<backstoryTitleShort>Young Craftsman</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] had superior dexterity than others their age. [PAWN_nameDef] loved making cute crafts and handing them out to their friends.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Social>2</Social>
+		<Crafting>6</Crafting>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--어린 원예가-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_23</defName>
+	<backstoryTitle>Kurin Young Gardener</backstoryTitle>
+	<backstoryTitleShort>Gardener</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] loves planting.[PAWN_pronoun] spent most of their time growing vegetables in flower beds, trimming pots and playing in a nearby botanical garden.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Animals>-2</Animals>
+		<Plants>6</Plants>
+		<Mining>2</Mining>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--어린 요리사-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_24</defName>
+	<backstoryTitle>Kurin Young Chef</backstoryTitle>
+	<backstoryTitleShort>Young Chef</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] loved cooking with their parents. [PAWN_pronoun]'s cooking was always praised whenever they cooking class at school.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Cooking>6</Cooking>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--동물 애호가-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_25</defName>
+	<backstoryTitle>Kurin Animal Lover</backstoryTitle>
+	<backstoryTitleShort>Animal Lover</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] wanted to keep alot of animals, but because of strict rules within their parents lease, they had to keep a robot pet. However [PAWN_nameDef] had more love for real animals than robot animals and often visited the local zoo.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Animals>4</Animals>
+		<Crafting>2</Crafting>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--똑똑한 학생-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_26</defName>
+	<backstoryTitle>Kurin Ace Student</backstoryTitle>
+	<backstoryTitleShort>Young Ace Student</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] performed better than other students. Their test scores were always at the top, and their relationship with their friends are good. However, spending too much time studying took a toll on [PAWN_pronoun]'s body.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Melee>-2</Melee>
+		<Social>4</Social>
+		<Construction>-2</Construction>
+		<Mining>-2</Mining>
+		<Intellectual>6</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--다재다능한 아이-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_27</defName>
+	<backstoryTitle>Kurin Versatile Child</backstoryTitle>
+	<backstoryTitleShort>Versatile Child</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef], who is proficient in various fields of study, such as cooking, sports and arts. But to due to [PAWN_pronoun]'s inability to focus on one subject led to them becoming a jack of all trades and spent a long time finding his purpose in life.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Shooting>2</Shooting>
+		<Melee>2</Melee>
+		<Cooking>2</Cooking>
+		<Crafting>2</Crafting>
+		<Intellectual>2</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--책벌레-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_28</defName>
+	<backstoryTitle>Kurin Bookworm</backstoryTitle>
+	<backstoryTitleShort>Bookworm</backstoryTitleShort>
+	<backstoryDescription>The sound of flipping through the books, the smell of paper... [PAWN_nameDef] loved reading with their light turned on in their room full of books.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Social>-4</Social>
+		<Animals>2</Animals>
+		<Medicine>2</Medicine>
+		<Plants>2</Plants>
+		<Intellectual>2</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--최초의 쿠린-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_29</defName>
+	<backstoryTitle>The First Kurin</backstoryTitle>
+	<backstoryTitleShort>The First Kurin</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was one of the first Kurins. [PAWN_nameDef] had been asleep for hundreds of years when the Kurins arrived on the new planet, unable to wake up from stasis due to a defect in the cyrogenic pod. Only recently the cyro pod opened and [PAWN_nameDef] finally opened their eyes for the first time in a couple hundred years.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Social>3</Social>
+		<Cooking>3</Cooking>
+		<Crafting>3</Crafting>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<traitDef>Beauty</traitDef>
+			<degree>2</degree>
+
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef> 
+<!--유학생-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_30</defName>
+	<backstoryTitle>Kurin International Student</backstoryTitle>
+	<backstoryTitleShort>International Student</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was a young Kurin, who had been away from their parents to study abroat in a human country. Fortunately, the school that [PAWN_nameDef] attended was a place with well mannered students and teachers. Fortunately she was able to grow into a lively and heart-warming fox despite the discrimination their kind would usually face.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Social>3</Social>
+		<Cooking>2</Cooking>
+		<Intellectual>3</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--어린 음악가-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_31</defName>
+	<backstoryTitle>Kurin Young Musician</backstoryTitle>
+	<backstoryTitleShort>Young Musician</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was a young fox who loves music and loves to sing with their friends. [PAWN_nameDef] gradually fell into the joy of music after making songs and music by the good reactions from the other Kurins.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Social>2</Social>
+		<Artistic>6</Artistic>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--아역 배우-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_32</defName>
+	<backstoryTitle></backstoryTitle>
+	<backstoryTitleShort></backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was famous for their excellent acting skills and rich emotional expression despite their young age. [PAWN_nameDef] appeared as a child actor in many movies and dramas and was able to learn various skills while acting in various genres.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Shooting>2</Shooting>
+		<Melee>2</Melee>
+		<Social>4</Social>
+		<Medicine>2</Medicine>
+		<Artistic>2</Artistic>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--활발한 학생-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_33</defName>
+	<backstoryTitle>Kurin Active Student</backstoryTitle>
+	<backstoryTitleShort>Active Student</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] has always been popular with friends for their good social skills, cute appearnce and britght and cheerful personality.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Social>6</Social>
+		<Cooking>4</Cooking>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--격투기 수련생-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_34</defName>
+	<backstoryTitle>Kurin Martial Arts Trainee</backstoryTitle>
+	<backstoryTitleShort>Martial Arts Trainee</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] had a weak constitution, so they were much weaker than their peers. [PAWN_nameDef] began to practice various sports and martial arts to overcome this.[PAWN_nameDef] worked hard and improved enough to win the regional competitions.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Melee>6</Melee>
+		<Construction>2</Construction>
+		<Mining>2</Mining>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--스카우트단-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_35</defName>
+	<backstoryTitle>Kurin Scouts</backstoryTitle>
+	<backstoryTitleShort>Young Scout</backstoryTitleShort>
+	<backstoryDescription>Young [PAWN_nameDef] held great admiration for the Young Fox Scouts. [PAWN_pronoun]'s parents provided him a uniform and tuition despite their poverty. [PAWN_nameDef] Learned various skills such as camping, cultivation and survival.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Shooting>2</Shooting>
+		<Medicine>2</Medicine>
+		<Construction>2</Construction>
+		<Plants>2</Plants>
+		<Crafting>2</Crafting>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--체육부원-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryChild_36</defName>
+	<backstoryTitle>Kurin Sports Member</backstoryTitle>
+	<backstoryTitleShort>Sports Member</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef], Unlike most Kurins, like to move their body and they entered a school sports team and did various exercises. Physical education was the spot-light for[PAWN_nameDef]. [PAWN_nameDef] used their skills to help bullied students, but unfortunately their academic performance seemed to be low.</backstoryDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<Melee>6</Melee>
+		<Social>2</Social>
+		<Construction>2</Construction>
+		<Mining>2</Mining>
+		<Intellectual>-4</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--==========성년기==========-->
+<!--신문기자-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_01</defName>
+	<backstoryTitle>Kurin News Reporter</backstoryTitle>
+	<backstoryTitleShort>News Reporter</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] writes articles in the local newspaper to inform the Kurin of various types of news. The country's current situation, culture and diplomacy.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Social>6</Social>
+		<Intellectual>2</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--고용된 메이드-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_02</defName>
+	<backstoryTitle>Kurin Hired Maid</backstoryTitle>
+	<backstoryTitleShort>Kurin Hired Maid</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] is a maid emplyed in the mansion of a wealthy family. [PAWN_nameDef] served as a maid and performed cleaning to preparing meals, purchasing resources for the mansion and managing the ledger. Due to their hard were they formed alot of trust with the family.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Social>4</Social>
+		<Cooking>4</Cooking>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--레스토랑 종업원-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_03</defName>
+	<backstoryTitle>Kurin Restaurant Staff</backstoryTitle>
+	<backstoryTitleShort>Restaurant Staff</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] worked in a restaurant, they took orders from customers, serve food and tidy up tables. Unfortunately there often was hair coming out in the meals but the guests liked [PAWN_nameDef]. On off days with low customers they were able to pick up on and learn the chefs skills.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Melee>2</Melee>
+		<Social>2</Social>
+		<Cooking>2</Cooking>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--사냥감-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_04</defName>
+	<backstoryTitle>Human Prey</backstoryTitle>
+	<backstoryTitleShort>Prey</backstoryTitleShort>
+	<backstoryDescription>Fox hunting is an extravagant sport of human aristocrats that has been around for a long time. It was banned for cruelty, but it has been gaining popularity again since the emergence of rising Kurin populations. [PAWN_nameDef] wore a collar and ran awawy from hunters. The ammunition used was a brittle salt bullet, but [PAWN_pronoun]'s body was bruised all over.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Melee>6</Melee>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<traitDef>Tough</traitDef>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--테러리스트-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_05</defName>
+	<backstoryTitle>Kurin Terrorist</backstoryTitle>
+	<backstoryTitleShort>Terrorist</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] is known to the internatiol community as a terrorist. However, they were actually a hero who assassinated a officer of a dictatorship who killed innocent Kurin for fun. They knew no one and always had to run away, but [PAWN_nameDef] thinks they did the right thing.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Shooting>6</Shooting>
+		<Melee>4</Melee>
+		<Social>-4</Social>
+		<Medicine>2</Medicine>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--관경병 생존자-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_06</defName>
+	<backstoryTitle>Kurin Rabies Survivor</backstoryTitle>
+	<backstoryTitleShort>Rabies Survivor</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] rolled down the shutter of a convenience store and was hiding in a city where Kurin suffering from rabies became inasnce and started biting and infecting each other. Outide, they heard screams and the sound of Kurins biting each other day and night. [PAWN_nameDef] was resuced after everything was suppressed, but that terrible memory remained for a long time.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Social>-4</Social>
+		<Medicine>6</Medicine>
+	</skillGains>
+	<workDisables>
+		<li>Violent</li>
+	</workDisables>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--마사지샵 점원-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_07</defName>
+	<backstoryTitle>쿠린 마사지샵 점원</backstoryTitle>
+	<backstoryTitleShort>점원</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef]는 도심 유흥가 한쪽의 마사지 샵에서 일하고 있습니다. 쿠린들이 찾아오면 보통은 향료와 오일을 바르고 마사지로 피로를 풀어주는 일을 했습니다만, 가게의 뒤쪽엔 조금 더 나간 무언가를 원하는 쿠린들을 위한 공간도 마련되어 있게 마련입니다. [PAWN_pronoun]는 많은 쿠린의 몸에 손을 대었고, 팁은 생활에 큰 도움이 되었습니다.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Melee>2</Melee>
+		<Social>6</Social>
+		<Medicine>2</Medicine>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--자연의 여우-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_08</defName>
+	<backstoryTitle>Kurin Massage Shop Clerk</backstoryTitle>
+	<backstoryTitleShort>Massage Shop Clerk</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] works in a massage shop on one side of the downtown entertainment district. When Kurins came, they usually applied spices and oils and massaged them to relieve fatigue, but there is a space out the back of the store for Kurin who want something more. [PAWN_nameDef] touched many Kurin's and the tips were a great help.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Social>-4</Social>
+		<Cooking>2</Cooking>
+		<Construction>4</Construction>
+		<Plants>4</Plants>
+		<Mining>2</Mining>
+		<Crafting>2</Crafting>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--시민-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_09</defName>
+	<backstoryTitle>Kurin Citizen</backstoryTitle>
+	<backstoryTitleShort>Citizen</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] is an ordinary citizen of the Republic of Kurin. Citizens who work hard day by day with various jobs are the foundation and fundamental to the Kurin power.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Cooking>2</Cooking>
+		<Construction>2</Construction>
+		<Plants>2</Plants>
+		<Crafting>2</Crafting>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--은행 접수원-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_10</defName>
+	<backstoryTitle>Kurin Bank Receptionist</backstoryTitle>
+	<backstoryTitleShort>Bank Receptionist</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was a smart fox who worked at a bank and took on various tasks. They even handle deposits and loans. [PAWN_nameDef] liked their work since their colleagues were good-natured.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Melee>-2</Melee>
+		<Social>6</Social>
+		<Intellectual>4</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--포도밭의 파수꾼-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_11</defName>
+	<backstoryTitle>Kurin Fruit Watcher</backstoryTitle>
+	<backstoryTitleShort>Fruit Watcher</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] wore a straw hat and sat inside a wooden hut to guard the fruit fields. When young Kurins came and stole the fruit they would chase the young foxes away. When the fruit weren't ripe, they would laugh at the young foxes faces.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Shooting>2</Shooting>
+		<Animals>2</Animals>
+		<Plants>6</Plants>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--경비행기 파일럿-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_12</defName>
+	<backstoryTitle>Kurin Light Aircraft Pilot</backstoryTitle>
+	<backstoryTitleShort>Light Aircraft Pilot</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] is a pilot who flys a small plane. They've been in great trouble while helping a blue hedgehog try to cross the border by stealing seven jewels in the past and they're not doing that anymore.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Shooting>2</Shooting>
+		<Melee>2</Melee>
+		<Animals>-2</Animals>
+		<Medicine>4</Medicine>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--경찰-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_13</defName>
+	<backstoryTitle>Kurin Police Officer</backstoryTitle>
+	<backstoryTitleShort>Police Officer</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] is an excellent police officer who graduated from the police academy with the highest grades and was deployed early.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Shooting>4</Shooting>
+		<Melee>4</Melee>
+		<Social>2</Social>
+		<Intellectual>2</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--붉은여우 병기창 계원-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_14</defName>
+	<backstoryTitle>Kurin Armory Officer</backstoryTitle>
+	<backstoryTitleShort>Armory Officer</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef], who is in charge of the entry and exit records of various weapons produced by the Red Fox Armory.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Shooting>2</Shooting>
+		<Crafting>1</Crafting>
+		<Intellectual>3</Intellectual>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<traitDef>Industriousness</traitDef>
+			<degree>1</degree>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--선교사-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_15</defName>
+	<backstoryTitle>Kurin Missionary</backstoryTitle>
+	<backstoryTitleShort>Missionary</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] lived out of service for poor Kurin, according to their own religious convictions they participated in various events and made donations and helped around the community.[PAWN_nameDef] had a unfortunate childhood, but [PAWN_nameDef] was richer than anyone else.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Shooting>-4</Shooting>
+		<Melee>-4</Melee>
+		<Social>4</Social>
+		<Medicine>4</Medicine>
+		<Cooking>4</Cooking>
+		<Plants>4</Plants>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<traitDef>Kind</traitDef>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--무역회사 사원-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_16</defName>
+	<backstoryTitle>Kurin Trading Company Employee</backstoryTitle>
+	<backstoryTitleShort>rading Company Employee</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] is an employee of a trading company that sells various Kurin goods to other countires and runs sales. Kurin are know in other countires and craft and scary merchants and [PAWN_nameDef] was such a Kurin. But recently relations with other countries have become heated and business has become difficult.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Social>8</Social>
+		<Intellectual>2</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--활주로 신호수-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_17</defName>
+	<backstoryTitle>Kurin Runway Signalman</backstoryTitle>
+	<backstoryTitleShort>Runway Signalman</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] is a fox on the runway of a kurin privite airport holding signal sticks and looking at incoming planes. Although [PAWN_nameDef] had several layers of earplugs the aricrafts engines was too much for [PAWN_pronoun]'s sensitive ears and the tails hurt due to fluttering from the strong winds. But [PAWN_nameDef] learned their own tricks such as tying their tails and ears. It worked well.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<forcedTraits>
+		<li>
+			<traitDef>Nerves</traitDef>
+			<degree>2</degree>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--캐러밴 무역상-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_18</defName>
+	<backstoryTitle>Kurin Caravan Trader</backstoryTitle>
+	<backstoryTitleShort>Caravan Trader</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was originally an ordinary door-to-door salesman, but after landing a good oppurtunity they became the head of a caravan and travels between several various settlements. They usually only visit the same Kurin faction settlements but often visit other settlements for rare commodoties.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Shooting>2</Shooting>
+		<Social>6</Social>
+		<Cooking>2</Cooking>
+		<Plants>2</Plants>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--편의점 아르바이터-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_19</defName>
+	<backstoryTitle>Kurin Part-time Store Clerk</backstoryTitle>
+	<backstoryTitleShort>Part-time Store Clerk</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] is a Kurin who works part-time at night in a common residental convenience store. There weren't many customers at night, so they would study whenever they could. However, It didn't mean they negelected their work. [PAWN_nameDef] is raising their knowledge so that one day they may become a bulding engineer.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Social>4</Social>
+		<Construction>6</Construction>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--관광지 호객꾼-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_20</defName>
+	<backstoryTitle>Kurin Tourist Guide</backstoryTitle>
+	<backstoryTitleShort>Toruist Guide</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] made a business by doing business with Kurin and humans coming to the beach and during holiday season the income was quite good.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Social>6</Social>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--전통시장 점주-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_21</defName>
+	<backstoryTitle>Kurin Market Stall Owner</backstoryTitle>
+	<backstoryTitleShort>Market Stall Owner</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] ran an old market stall selling food at an affordable price, even though many Kurins go to larger department stores customers still come by for [PAWN_pronoun]'s cullinary akills.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Social>6</Social>
+		<Cooking>6</Cooking>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--전직 쉐프-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_22</defName>
+	<backstoryTitle>Kurin Ex-Chef</backstoryTitle>
+	<backstoryTitleShort>Ex-Chef</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was a famous hotel chef in the human kingdom. However, they were fired after receiving complaints of hair in the meals. [PAWN_nameDef], who returned to the Republic of Kurin afterwards, worked at a small local farm. Although the pay was less than before they were able to live comfortably.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Melee>2</Melee>
+		<Social>2</Social>
+		<Cooking>6</Cooking>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--동물 사육사-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_23</defName>
+	<backstoryTitle>Kurin Zoo Trainer</backstoryTitle>
+	<backstoryTitleShort>Zoo Trainer</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] is a popular zookeeper. They mainly cared for young animals or trained animals to perform on stage. Sometimes [PAWN_nameDef] was a guide for visitors, but It was not as popular as the stage shows.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Social>4</Social>
+		<Animals>6</Animals>
+		<Medicine>2</Medicine>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--수경재배 농부-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_24</defName>
+	<backstoryTitle>Kurin Hydroponic Farmer</backstoryTitle>
+	<backstoryTitleShort>Hydroponic Farmer</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] grows various crops and studies new seeds in hydroponic cultivation in sterlized rooms. They cooked with crops as a hobby.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Social>-2</Social>
+		<Animals>-2</Animals>
+		<Cooking>4</Cooking>
+		<Plants>6</Plants>
+		<Intellectual>2</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--도예가-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_25</defName>
+	<backstoryTitle>Kurin Potter</backstoryTitle>
+	<backstoryTitleShort>Potter</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was one of the few potters left in the Kurin Republic due to the development of 3D printing technology. [PAWN_nameDef] pursued beauty and value rather than practicality and the work of [PAWN_nameDef] was sold at a fairly high price.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Cooking>-2</Cooking>
+		<Artistic>8</Artistic>
+		<Crafting>4</Crafting>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--모자제작자-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_26</defName>
+	<backstoryTitle>Kurin Hatmaker</backstoryTitle>
+	<backstoryTitleShort>Hatmaker</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] makes several silk hats. In a country of distant humans with different cultures from the Kurin.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Social>-6</Social>
+		<Artistic>4</Artistic>
+		<Crafting>6</Crafting>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<traitDef>Wimp</traitDef>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--시계장인-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_27</defName>
+	<backstoryTitle>쿠린 시계장인</backstoryTitle>
+	<backstoryTitleShort>시계장인</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] learned to make clocks of various sizes in the human kingdoms. It gained great popularity among hte Aristocratic Kurin for its artisitic appearence as a sign of wealth. The skilled required to hand carve each cog and gear honed [PAWN_pronoun]'s crafting skills.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Crafting>8</Crafting>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--생선요리 쉐프-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_28</defName>
+	<backstoryTitle>Kurin Fish Chef</backstoryTitle>
+	<backstoryTitleShort>Fish Chef</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] know the best way to fish delicious. The cooked dishes of [PAWN_pronoun]'s are popular with human tourists so they often get alot of foreigner customers.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Melee>2</Melee>
+		<Social>2</Social>
+		<Cooking>8</Cooking>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--의상 디자이너-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_29</defName>
+	<backstoryTitle>Kurin Constume Designer</backstoryTitle>
+	<backstoryTitleShort>Costune Designer</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] Is a fledgling Costume deisgner who dreams of owning their own studio one day.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Artistic>4</Artistic>
+		<Crafting>2</Crafting>
+		<Intellectual>3</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--재단사-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_30</defName>
+	<backstoryTitle>Kurin Tailor</backstoryTitle>
+	<backstoryTitleShort>Tailor</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] ran a small tailor shop, making custom clothes for all sorts of Kurin.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Social>4</Social>
+		<Crafting>6</Crafting>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--생산라인 작업자-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_31</defName>
+	<backstoryTitle>Kurin Line Worker</backstoryTitle>
+	<backstoryTitleShort>Line Worker</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was busy assembling electronic components and picking out defectice parts on the production line in the factory that was constantly running. Many Kurins were working on the same line. Although the pay was not high, [PAWN_nameDef] worked hard, dreaming of a better life.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Crafting>6</Crafting>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--벌목공-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_32</defName>
+	<backstoryTitle>Kurin Lumberjack</backstoryTitle>
+	<backstoryTitleShort>Lumberjack</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] worked to produce timber in a forest.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Melee>2</Melee>
+		<Plants>6</Plants>
+		<Mining>2</Mining>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--가난한 로봇 연구자-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_33</defName>
+	<backstoryTitle>Kurin Mechanoid Researcher</backstoryTitle>
+	<backstoryTitleShort>Mechanoid Researcher</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] worked to study different types of mechanoids, from domestic to agricultural they learnt alot by reverse engineering them and fixing glitches.
+</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Crafting>6</Crafting>
+		<Intellectual>4</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--우주비행사-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_34</defName>
+	<backstoryTitle>Kurin Astronaut</backstoryTitle>
+	<backstoryTitleShort>Astronaut</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] is a Kurin who has extensive space flight experience and has already performed missions on all planets in the stellar system.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Shooting>2</Shooting>
+		<Melee>2</Melee>
+		<Social>2</Social>
+		<Medicine>2</Medicine>
+		<Crafting>2</Crafting>
+		<Intellectual>2</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--정비창 보조공-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_35</defName>
+	<backstoryTitle>Kurin Mechanic Assistant</backstoryTitle>
+	<backstoryTitleShort>Mechanic Assistant</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] worked as an apprentice to an older mechanic fixing old mechs for the Red Fox defense force.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Social>-4</Social>
+		<Construction>2</Construction>
+		<Crafting>6</Crafting>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--전기공-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_36</defName>
+	<backstoryTitle>Kurin Electrician</backstoryTitle>
+	<backstoryTitleShort>Electrician</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] worked on tall pylons to replace electirc wires and parts. The pay was good thanks to the multiple tails and dexterity.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Construction>6</Construction>
+		<Crafting>2</Crafting>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--배관공-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_37</defName>
+	<backstoryTitle>Kurin Plumber</backstoryTitle>
+	<backstoryTitleShort>Kurin Plumber</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef], who used to connect pipes and assemble air ducts at construction sites, recently god laid off from his job when the contract went bad. He did not know much and was not good at studying he heard news that the situation in the Kurin Republic was difficult.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Construction>6</Construction>
+		<Crafting>4</Crafting>
+		<Intellectual>-2</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--은여우 중공업 기술자-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_38</defName>
+	<backstoryTitle>Kurin Heavy Industires Engineer</backstoryTitle>
+	<backstoryTitleShort>Heavy Industires Engineer</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] is an engineer working at the largest shipbuilding facility in the Kurin Republic, which produces various cruise ships, container ships, destroyers and even aircraft carriers. Eunfox Heavy Industries was a huge company supplying more that 80% of all ships on the planet. Thanks to this [PAWN_nameDef] was hit waith paperwork everyday.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Construction>4</Construction>
+		<Crafting>6</Crafting>
+		<Intellectual>2</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--레스토랑 웨이터-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_39</defName>
+	<backstoryTitle>Kurin Restaurant Waiter</backstoryTitle>
+	<backstoryTitleShort>Restaurant Waiter</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] served to take orders from high-end restaurants, receive hats and coats and hang them on the rack. [PAWN_nameDef] now only serves guests, but they wanted to be in the kitchen since they have some cooking skills.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Social>4</Social>
+		<Cooking>4</Cooking>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--간호사-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_40</defName>
+	<backstoryTitle>Kurin Nurse</backstoryTitle>
+	<backstoryTitleShort>Nurse</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] is a fully qualified nurse. If a patient came in who has life threatening injurys came to the emergency room, they would remain calm and treat them.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Social>2</Social>
+		<Medicine>6</Medicine>
+		<Intellectual>2</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--천문학자-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_41</defName>
+	<backstoryTitle>Kurin Astronomer</backstoryTitle>
+	<backstoryTitleShort>Astronomer</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] analyzed the data sent by the deep space probes, created a three-dimensional space map and calculated the spacecrafts interstellar flight paths. This peaceful lab life made [PAWN_nameDef] weaker than other Kurins.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Melee>-2</Melee>
+		<Construction>-2</Construction>
+		<Mining>-2</Mining>
+		<Crafting>2</Crafting>
+		<Intellectual>8</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--생명공학자-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_42</defName>
+	<backstoryTitle>Kurin Biotech</backstoryTitle>
+	<backstoryTitleShort>Biotech</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was a bioengineer studying genetic engineering. [PAWN_nameDef] studied the Kurin genome and found a treament for multiple strains of rabies. [PAWN_nameDef], while studing deeper in the genome discovered that the Kurin DNA has a helix structure that cannot occur without artificial insertion, but decided to keep it a secret.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Animals>2</Animals>
+		<Medicine>4</Medicine>
+		<Plants>2</Plants>
+		<Intellectual>6</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--인공지능 공학자-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_43</defName>
+	<backstoryTitle>Kurin AI Engineer</backstoryTitle>
+	<backstoryTitleShort>AI Engineer</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was well aware of the dangers of mechanoids and tried to develop a new artifical intelligence mechanoid, despite the dangers.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Shooting>4</Shooting>
+		<Intellectual>8</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--지질학자-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_44</defName>
+	<backstoryTitle>Kurin Geologist</backstoryTitle>
+	<backstoryTitleShort>Geologist</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] is a geologist who investigates fault lines, volacnoes and mountains.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Social>2</Social>
+		<Mining>6</Mining>
+		<Intellectual>4</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--고등학교 교사-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_45</defName>
+	<backstoryTitle>Kurin High School Teacher</backstoryTitle>
+	<backstoryTitleShort>High School Teacher</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was a high school math teacher. They lived a hectic life, stopping unruly students and guiding them to graduation.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Melee>3</Melee>
+		<Social>3</Social>
+		<Animals>3</Animals>
+		<Intellectual>3</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--외과 의사-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_46</defName>
+	<backstoryTitle>Kurin Surgeon</backstoryTitle>
+	<backstoryTitleShort>Surgeon</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] is a surgeon working in a general hospital in a local city. There weren't many patients in the city close to the border, but [PAWN_nameDef] has been busy due to Kurins who been attacked by humans.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Melee>2</Melee>
+		<Medicine>8</Medicine>
+		<Intellectual>4</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--의료보건부 공무원-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_47</defName>
+	<backstoryTitle>Kurin Medical Officer</backstoryTitle>
+	<backstoryTitleShort>Medical Officer</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef], a public offical of the Kurin Ministry of Health and Care could have become a doctor, but to improve the Kurins medical enviroment, they gave up a private hospital and chose to become a public servant.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Social>2</Social>
+		<Medicine>6</Medicine>
+		<Intellectual>4</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--아이돌-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_48</defName>
+	<backstoryTitle>Kurin Idol</backstoryTitle>
+	<backstoryTitleShort>Idol</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was an up and coming Kurin Idol. The popularity of [PAWN_nameDef] with they're excellent dancing skills, singing skills and beautiful appearence has grown day by day and they have appeared on many streams.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Social>8</Social>
+		<Cooking>2</Cooking>
+		<Construction>-2</Construction>
+		<Mining>-2</Mining>
+		<Artistic>4</Artistic>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<traitDef>Beauty</traitDef>
+			<degree>2</degree>
+
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--떠오르는 가수-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_49</defName>
+	<backstoryTitle>Kurin Singer</backstoryTitle>
+	<backstoryTitleShort>Singer</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was a renowned singer who released several albums as a singer-songwriter. They were invited to several performances and was able to appear on TV shows occasionally.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Social>4</Social>
+		<Artistic>6</Artistic>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--드라마 배우-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_50</defName>
+	<backstoryTitle>Kurin Rising Singer</backstoryTitle>
+	<backstoryTitleShort>Rising Singer</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] has appeared in several films and plays with a flexible voice and realistic acting skills.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Shooting>2</Shooting>
+		<Melee>2</Melee>
+		<Social>4</Social>
+		<Cooking>2</Cooking>
+		<Artistic>2</Artistic>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<traitDef>Beauty</traitDef>
+			<degree>1</degree>
+
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--가극단 단원-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_51</defName>
+	<backstoryTitle>Kurin Troupe Member</backstoryTitle>
+	<backstoryTitleShort>Troupe Member</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] is a member of a troupe who sings and plays beautiful songs in costumes decorated with colorful colors. [PAWN_nameDef] was in love with this provincial city where there were many simple Kurins, where forests and fields could be seen just outside the city, and the sound of grassworms chirping. </backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Artistic>8</Artistic>
+		<Crafting>2</Crafting>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<traitDef>Beauty</traitDef>
+			<degree>1</degree>
+
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--소총수-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_52</defName>
+	<backstoryTitle>Kurin Rifleman</backstoryTitle>
+	<backstoryTitleShort>Rifleman</backstoryTitleShort>
+	<backstoryDescription>These Riflemen are the main pillars of the Kurin Republic army.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Shooting>4</Shooting>
+		<Melee>2</Melee>
+		<Medicine>1</Medicine>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Soldier</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--지정사수-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_53</defName>
+	<backstoryTitle>Kurin Sniper</backstoryTitle>
+	<backstoryTitleShort>Sniper</backstoryTitleShort>
+	<backstoryDescription>Most Kurins shoot well thanks to their good eyesight and dexterous hands, but [PAWN_nameDef] had excellent eyesight and shooting skills a step above the rest.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Shooting>8</Shooting>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<traitDef>ShootingAccuracy</traitDef>
+			<degree>1</degree>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Sniper</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--레인저-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_54</defName>
+	<backstoryTitle>Kurin Ranger</backstoryTitle>
+	<backstoryTitleShort>Ranger</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was in charge of protecting the snowy forests and mountains in the north. they are a ranger who managed the forest by taking on the sounds of animals and the smell of the wind travelling through the forest. In the event of a fire, they extinguished the fire and rescued potential causalties.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Shooting>6</Shooting>
+		<Melee>4</Melee>
+		<Animals>4</Animals>
+		<Plants>2</Plants>
+		<Crafting>2</Crafting>
+	</skillGains>
+	<workDisables>
+		<li>Social</li>
+	</workDisables>
+	<spawnCategories>
+		<li>Kurin_Soldier</li>
+		<li>Kurin_EliteSoldier</li>
+		<li>Kurin_Sniper</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--정찰병-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_55</defName>
+	<backstoryTitle>Kurin Scout</backstoryTitle>
+	<backstoryTitleShort>Scout</backstoryTitleShort>
+	<backstoryDescription>After crash landing on the periphery of the rimworld the Kurin felt the need to scout other factions. [PAWN_nameDef] received alot of military training so that they could reconnaissance enemies quickly and stealthily and they were able to find out the location trends, etc. of the strongholds of various fortresses.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Shooting>4</Shooting>
+		<Medicine>2</Medicine>
+		<Plants>2</Plants>
+		<Crafting>2</Crafting>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Soldier</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--의무관-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_56</defName>
+	<backstoryTitle>Kurin Medic</backstoryTitle>
+	<backstoryTitleShort>Medic</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] became a medic to save they're dying companions on the battlefields. They were Kurin who had sharpened their medical skills, but they also realized that there were times when they had to kill they're enemies to save they're companions.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Shooting>2</Shooting>
+		<Social>2</Social>
+		<Medicine>6</Medicine>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_EliteSoldier</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--분대장-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_57</defName>
+	<backstoryTitle>Kurin Squad Leader</backstoryTitle>
+	<backstoryTitleShort>Squad Leader</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] was a fox with leadership skills who stood guard with a rifle from the time of crash landing on the rimworld. Since then the stronghold has found some stability and they, who has already had a lot of experience in the army of the Kurin Republic, applid themselves to the squad leader.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Shooting>6</Shooting>
+		<Social>4</Social>
+		<Medicine>2</Medicine>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_EliteSoldier</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--붉은여우-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_58</defName>
+	<backstoryTitle>Kurin Red Fox</backstoryTitle>
+	<backstoryTitleShort>Red Fox</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] proved that they had trained they're combat skills harder than anyone in the midst of a conflict with humans that intensifed just before the relocation of the republic, they saw ruthless violence. They participated in countless battles, killing countless humans with they're sharp shooting skills and quick judegement of circumstances and they're companions called them the Red Fox.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Shooting>10</Shooting>
+		<Melee>8</Melee>
+		<Medicine>4</Medicine>
+	</skillGains>
+	<workDisables>
+		<li>Social</li>
+		<li>Animals</li>
+		<li>Artistic</li>
+	</workDisables>
+	<spawnCategories>
+		<li>Kurin_EliteSoldier</li>
+		<li>Kurin_Sniper</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--여우장교-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_59</defName>
+	<backstoryTitle>Kurin Fox Officer</backstoryTitle>
+	<backstoryTitleShort>Fox Officer</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] is a former officer of one of the few provincial armies. Although it was a boring white-collar job for most of they're work, they had plenty of free time to read several books and do VR shooting training. They are able to hear a number of combat experiences thanks to above all serving as a lieutenant under a seasoned commander.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Shooting>6</Shooting>
+		<Melee>4</Melee>
+		<Social>6</Social>
+		<Intellectual>2</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+<!--강하폭격기 파일럿-->
+<Garam_RaceAddon.SimpleBackstoryDef>
+	<defName>Kurin_BackstoryAdult_60</defName>
+	<backstoryTitle>Kurin Combat Engineer</backstoryTitle>
+	<backstoryTitleShort>Combat Engineer</backstoryTitleShort>
+	<backstoryDescription>[PAWN_nameDef] is a Combat engineer who builds portable fortifications and artillary while maintaining turrets and vehicles.</backstoryDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<Shooting>4</Shooting>
+		<Melee>2</Melee>
+		<Crafting>2</Crafting>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Soldier</li>
+		<li>Kurin_EliteSoldier</li>
+	</spawnCategories>
+</Garam_RaceAddon.SimpleBackstoryDef>
+
+</Defs>
